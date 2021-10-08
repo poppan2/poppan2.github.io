@@ -28,8 +28,8 @@ Include link to your google sheet here.  Here is the sample [Joe had used in cla
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://imgur.com/KhGG0Lu)
+- [Desktop](https://imgur.com/ZilJfjm)
 
 Wireframing Resources:
 

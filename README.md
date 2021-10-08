@@ -26,15 +26,10 @@ Include link to your google sheet here.  Here is the sample [Joe had used in cla
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
+The Following are the Mobile and Desktop wireframes generated using the "[Figma](https://www.figma.com/)" wireframing. 
 - [Mobile](https://imgur.com/KhGG0Lu)
 - [Desktop](https://imgur.com/ZilJfjm)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
 
 
 ## Time/Priority Matrix 

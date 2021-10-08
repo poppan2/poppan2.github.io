@@ -34,7 +34,7 @@ The Following are the Mobile and Desktop wireframes generated using the "[Figma]
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://res.cloudinary.com/dt5sp9nsn/image/upload/v1633729974/Project1-portfolio/Time_Priority_Matrix_gvlwax.jpg)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 

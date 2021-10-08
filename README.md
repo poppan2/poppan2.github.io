@@ -75,7 +75,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Other sections and flex| M | 3hr | hr|
 | Animation | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
+| Social Media Icons/Images | L | 1hr |  hr |
 | Total | H | 16hrs| hrs |
 
 #### PostMVP

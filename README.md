@@ -18,7 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-The purpose of this project is to build our own personal portfolio website. 
+The purpose of this project is to build my own personal portfolio website to showcase my understanding of HTML/CSS/JavaScript/JQuery.
 
 ## Google Sheet
 

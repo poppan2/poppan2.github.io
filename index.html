@@ -6,16 +6,20 @@
         <title>Ye Aung</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container">
+        <div class="container" id="home">
             <nav class="nav-bar">
-                <i class="fas fa-user-secret fa-3x left-icon"></i>
-                <i class="fas fa-bars fa-3x right-icon"></i>
+                <section>
+                    <i class="fas fa-user-secret fa-3x left-icon"></i>
+                    <i class="fas fa-bars fa-3x right-icon toggle-button"></i>
+                    <i class="fas fa-skull-crossbones fa-3x cross-icon toggle-button"></i>
+                </section>
                 <ul id="lists">
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
             <main class="main-content">
@@ -27,7 +31,7 @@
                         at UCLA, and I've always been good at problem solving
                     </p>
                 </article>
-                <section class="projects">
+                <section class="projects" id="project">
                     <div><img src="https://picsum.photos/200/300"></div>
                     <div><img src="https://picsum.photos/seed/random/200/300"></div>
                     <div><img src="https://picsum.photos/seed/two/200/300"></div>
@@ -39,7 +43,7 @@
                     <i class="fab fa-twitter fa-3x icon"></i>
                     <i class="fas fa-envelope fa-3x icon"></i>
                 </div>
-                <div class="contact-me">
+                <div class="contact-me" id="contact">
                     <p>Please contact me at</p>
                     <p>ye_aung94@yahoo.com</p>
                 </div>

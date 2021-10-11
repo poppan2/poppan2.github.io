@@ -37,14 +37,14 @@ The Following are the Mobile and Desktop wireframes generated using the "[Figma]
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | M | 0.5hr | hr |
-| HTML/CSS Page Layout | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Hamburger | M | 0.5hr | 0.5hr |
+| HTML/CSS Page Layout | H | 3hr | 1hr |
+| Regular Nav | H | 1hr | 1.5hr |  
 | Adding Form | M | 1.5hr|  hr | 
 | Other sections and flex| M | 3hr | hr|
 | Animation | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons/Images | M | 1hr |  hr |
+| Social Media Icons/Images | M | 1hr | 1 hr |
 | Total | H | 16hrs| hrs |
 
 #### PostMVP

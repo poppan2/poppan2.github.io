@@ -8,12 +8,15 @@ body{
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 70px 2 1fr;
     width: 100%;
-
 }
 
 #lists{
     display: none;
     list-style: none;
+    text-align: center; 
+    margin-right: 50px;
+    position: relative;
+    top: -50px;
 }
 
 #lists a{
@@ -27,6 +30,7 @@ body{
     padding-bottom: 20px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 
 }
 
@@ -34,9 +38,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .nav-bar i{
     color: white;
-    top: 10px;
 }
 
 .nav-bar li{
@@ -49,14 +53,16 @@ body{
 }
 
 .right-icon{
-    margin-right: 20px;
+    margin-right: 30px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .cross-icon{
     display: none;
-    margin-right: 20px;
+    margin-right: 30px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .main-content{
@@ -65,14 +71,28 @@ body{
     margin-bottom: 0;
 }
 
+.main-content .video{
+    margin-top: 80px;
+}
+
 video{
     height: 100%;
     width: 100%
 }
-
-.about-me{
-    grid-row: 2/3;
+.profile{
     text-align: center;
+    margin: 0;
+}
+.profile img{
+    width: 30%;
+    position: relative;
+    top: -50px;
+    border-radius: 10px;
+}
+
+.main-content .about-me{
+    grid-row: 2/3;
+    text-align: left;
     margin: 0 auto;
     margin-bottom: 50px;
     width: 80%;
@@ -82,8 +102,13 @@ video{
     text-align: center;
 }
 
+.projects .project-row1, .projects .project-row2{
+    display: flex;
+    justify-content: space-around;
+}
+
 #footer{
-    grid-column: 2/7;
+    grid-column: 1/8;
     grid-row: 3/4;
 
 }
@@ -101,9 +126,8 @@ video{
     background-color: #292F39;
     color: white;
     text-align: center;
-    padding: 0;
-}
-.contact-me p{
-    margin: 0;
-    margin-bottom: 5px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
 }

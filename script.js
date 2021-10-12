@@ -6,23 +6,23 @@ $('.toggle-button').on('click', function(){
     console.log("hello")
 })
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-    $('.project-photo').hover(
-        function(){
-            $(this).animate({
-                marginTop: '-=10%',
-                width: '170px',
-                height: '170px',
-            })
-        }, 
+//     $('.project-photo').hover(
+//         function(){
+//             $(this).animate({
+//                 marginTop: '-=10%',
+//                 width: '170px',
+//                 height: '170px',
+//             })
+//         }, 
 
-        function(){
-            $(this).animate({
-                marginTop: '0%',
-                width: '150px',
-                height: '150px',
-            })
-        }, 
-    )
-})
+//         function(){
+//             $(this).animate({
+//                 marginTop: '0%',
+//                 width: '150px',
+//                 height: '150px',
+//             })
+//         }, 
+//     )
+// })

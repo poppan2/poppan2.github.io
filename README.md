@@ -9,8 +9,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description/Create README file/ Wireframes / Priority Matrix / Timeline  | Incomplete
-|Day 2| MVP & Bug Fixes | Incomplete
-|Day 3| MVP & Bug Fixes  | Incomplete
+|Day 2| MVP & Bug Fixes | Complete
+|Day 3| MVP & Bug Fixes  | Complete
 |Day 4| Post MVP & Bug Fixes| Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -41,9 +41,9 @@ The Following are the Mobile and Desktop wireframes generated using the "[Figma]
 | HTML/CSS Page Layout | H | 3hr | 1hr |
 | Regular Nav | H | 1hr | 1.5hr |  
 | Adding Form | M | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| Other sections and flex| M | 3hr | 4hr|
 | Animation | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Responsive | H | 3hr | 3hr | 
 | Social Media Icons/Images | M | 1hr | 1 hr |
 | Total | H | 16hrs| hrs |
 

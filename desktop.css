@@ -110,6 +110,7 @@
     .project-text{
         border: none;
         font-size: 35px;
+        color: #292F39;
     }
 
     .project-row1, .project-row2{
@@ -117,6 +118,10 @@
         justify-content: start;
         text-align: center;
         background-color: tomato;
+    }
+
+    .project-photo:hover{
+        box-shadow: 12px 12px 2px 1px rgba(41, 47, 57, 0.2);
     }
 
 }

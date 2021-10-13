@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Press+Start+2P&family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Creepster&family=Press+Start+2P&family=Wallpoet&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -103,14 +105,23 @@ video{
     position: relative;
     top: -20px;
 }
+.intro h3{
+    font-family: 'Wallpoet', sans-serif;
+}
+.intro p{
+    font-family: 'charm', sans-serif;
+    color:rgb(100, 99, 99)
+}
 
 #skill{
     text-align: center;
+    color:rgb(71, 70, 70);
     border-bottom: 1px solid rgb(184, 184, 184);
     margin-bottom: 50px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
 }
 
 .skills{
@@ -161,6 +172,8 @@ video{
 #about-me{
     text-transform: uppercase;
     border-bottom: 1px solid gray;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .projects{
@@ -174,6 +187,7 @@ video{
     margin-bottom: 50px;
     padding-bottom: 10px;
     text-transform: uppercase;
+    font-family: 'Creepster', sans-serif;
     font-size: 30px;
 }
 

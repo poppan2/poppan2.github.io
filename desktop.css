@@ -34,13 +34,14 @@
     }
 
     .profile img{
-        top: -300px;
+        top: -200px;
         border-radius: 50%;
+        width: 20%;
     }
 
     .main-content .intro{
         font-size: 40px;
-        top: -200px;
+        top: -150px;
         text-transform: uppercase;
     }
 
@@ -53,19 +54,33 @@
         display: flex;
         justify-content: center;
         position: relative;
-        top: -150px;
+        top: -50px;
     }
 
     .two-lines{
         background-color: #292F39;
         height: 2px;
-        width: 100px;
+        width: 300px;
         position: relative;
         top: 40px;
     }
 
+    .skills{
+        justify-content: space-evenly;
+    }
+
+    .skills p{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #jquery-icon{
+        width: 126px;
+        height: 144px;
+    }
+
     #about-me{
         border: none;
+        font-size: 40px;
     }
     
     .aboutMe{
@@ -77,7 +92,7 @@
     .three-lines{
         background-color: white;
         height: 2px;
-        width: 100px;
+        width: 300px;
         position: relative;
         top: 35px;
     }
@@ -102,26 +117,44 @@
     .four-lines{
         background-color: #292F39;
         height: 2px;
-        width: 100px;
+        width: 300px;
         position: relative;
-        top: 25px;
+        top: 35px;
     }
 
     .project-text{
         border: none;
-        font-size: 35px;
+        font-size: 40px;
         color: #292F39;
     }
 
     .project-row1, .project-row2{
         display: flex;
-        justify-content: start;
+        justify-content: center;
         text-align: center;
-        background-color: tomato;
     }
 
     .project-photo:hover{
         box-shadow: 12px 12px 2px 1px rgba(41, 47, 57, 0.2);
+    }
+
+    #project-one{
+        width: 250px;
+        height: 125px;
+        border-radius: 10px;;
+    }
+
+    #project-two{
+        width: 250px;
+        height: 125px;
+    }
+
+    .contact-text{
+        font-size: 30px;
+    }
+
+    .social-icons{
+        margin-top: 20px;
     }
 
 }

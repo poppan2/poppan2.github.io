@@ -1,0 +1,122 @@
+@media  screen and (min-width: 992px) {
+    .right-icon{
+        display: none;
+    } 
+
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 70px;
+    }
+
+    #lists{
+        display: flex;
+        position: relative;
+        top: 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #lists li{
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .left-icon{
+        margin: 0;
+    }
+
+    .main-content .video{
+        margin-top: 70px;
+    }
+
+    .profile img{
+        top: -300px;
+        border-radius: 50%;
+    }
+
+    .main-content .intro{
+        font-size: 40px;
+        top: -200px;
+        text-transform: uppercase;
+    }
+
+    #skill{
+        font-size: 40px;
+        border: none;
+    }
+
+    .skill-set{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -150px;
+    }
+
+    .two-lines{
+        background-color: #292F39;
+        height: 2px;
+        width: 100px;
+        position: relative;
+        top: 40px;
+    }
+
+    #about-me{
+        border: none;
+    }
+    
+    .aboutMe{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .three-lines{
+        background-color: white;
+        height: 2px;
+        width: 100px;
+        position: relative;
+        top: 35px;
+    }
+
+    .about-me{
+        padding: 50px 0;
+        margin: 50px 0;
+    }
+
+    .about-me p{
+        font-size: 30px;
+        padding: 0 120px;
+        line-height: 40px;
+    }
+
+    .project{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .four-lines{
+        background-color: #292F39;
+        height: 2px;
+        width: 100px;
+        position: relative;
+        top: 25px;
+    }
+
+    .project-text{
+        border: none;
+        font-size: 35px;
+    }
+
+    .project-row1, .project-row2{
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        background-color: tomato;
+    }
+
+}

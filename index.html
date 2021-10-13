@@ -6,20 +6,22 @@
         <title>Ye Aung</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="desktop.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="main-container" id="home">
+        <div class="container" id="home">
             <nav class="nav-bar">
                 <section>
-                    <i class="fas fa-user-secret fa-3x left-icon"></i>
+                    <a href="#home"><i class="fas fa-user-secret fa-3x left-icon"></i></a>
                     <i class="fas fa-bars fa-3x right-icon toggle-button"></i>
                     <i class="fas fa-skull-crossbones fa-3x cross-icon toggle-button"></i>
                 </section>
                 <ul id="lists">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <main class="main-content">
@@ -29,45 +31,64 @@
                 </div>
                 <article class="intro">
                     <h3>Hi, I am Ye. Nice to meet you. I'm a web developer & software engineer based in LA.</h3>
-                    <p>I'm currently on my journey to be a web developer/software engineer. I'm based in Los Angeles, U.S.
+                    <p>I'm currently on my journey to be a web developer/software engineer. I love building stuff.
                         So far, I've been enjoying what I'm learning/doing here at GA academy.
                     </p>
                 </article>
-                <div id="skill-text">Skills</div>
-                <div class="container skills">
+                <div class="skill-set">
+                    <div class="two-lines"></div>
+                    <div id="skill">Skills</div>
+                    <div class="two-lines"></div>
+                </div>
+                <div class="skills">
                     <div>
-                        <div class="skill-icon">
-                            <i class="fab fa-html5 fa-5x"></i>
+                        <div>
+                            <i class="fab fa-html5 fa-5x skill-icon"></i>
                             <p>HTML5</p>
                         </div>
-                        <div class="skill-icon">
-                            <i class="fab fa-css3-alt fa-5x"></i>
+                        <div>
+                            <i class="fab fa-css3-alt fa-5x skill-icon"></i>
                             <p>CSS3</p>
                         </div>
                     </div>
                     <div>
-                        <div class="skill-icon">
-                            <i class="fab fa-js-square fa-5x"></i>
+                        <div>
+                            <i class="fab fa-js-square fa-5x skill-icon"></i>
                             <p>Java Script</p>
                         </div>
-                        <div class="skill-icon">
+                        <div>
                             <img id="jquery-icon" src="./images/jquery.png">
                             <p>jquery</p>
                         </div>
                     </div>
                     <div>
-                        <div class="skill-icon">
-                            <i class="fab fa-python fa-5x"></i>
+                        <div>
+                            <i class="fab fa-python fa-5x skill-icon"></i>
                             <p>Python</p>
+                        </div>
+                        <div>
+                            <i class="fab fa-github fa-5x skill-icon"></i>
+                            <p>GitHub</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-me">
-                    <h3>About Me</h3>
-                    <p>Blah Blah Blah</p>
+                <div class="about-me" id="about">
+                    <div class="aboutMe">
+                        <div class="three-lines"></div>
+                        <div id="about-me">about</div>
+                        <div class="three-lines"></div>
+                    </div>
+                    <p>I've always been interested in problem solving which is why I studied physical chemistry as an undergraduate.
+                        I truely enjoy writing codes, being creative with it. I am also on my journey to dive deep into being a sofrware
+                        engineer and learn, grow, and hone my coding skills. 
+                    </p>
                 </div>
-                <section class="projects">
-                    <div class="project-text">Projects</div>
+                <section class="projects" id="project">
+                    <div class="project">
+                        <div class="four-lines"></div>
+                        <div class="project-text">Projects</div>
+                        <div class="four-lines"></div>
+                    </div>
                     <div class="project-row1">
                         <div>
                             <img class="project-photo" src="https://picsum.photos/150/150">
@@ -93,14 +114,15 @@
                 </section>
             </main>
             <footer id="footer">
+                <div class="contact-me" id="contact">
+                    <p class="contact-text">Please contact me at</p>
+                    <p class="contact-text">ye_aung94@yahoo.com</p>
+                </div>
                 <div class="social-icons">
+                    <i class="fab fa-github fa-3x icon" ></i>
                     <i class="fab fa-instagram fa-3x icon"></i>
                     <i class="fab fa-twitter fa-3x icon"></i>
                     <i class="fas fa-envelope fa-3x icon"></i>
-                </div>
-                <div class="contact-me" id="contact">
-                    <p>Please contact me at</p>
-                    <p>ye_aung94@yahoo.com</p>
                 </div>
             </footer>
         </div>

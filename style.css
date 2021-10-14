@@ -16,12 +16,17 @@ body{
 #lists{
     display: none;
     list-style: none;
-    justify-content: space-between;
+    flex-direction: column;
     text-align: center; 
-    margin-right: 50px;
-    font-size: 25px;
+    margin: 0 50px 0 0;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
 }
 
+#lists li{
+    margin-bottom: 10px;;
+}
 #lists a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -35,7 +40,6 @@ body{
     width: 100%;
     position: fixed;
     z-index: 2;
-
 }
 
 .nav-bar section{
@@ -51,12 +55,12 @@ body{
     margin-bottom: 5px;
 }
 
-.left-icon{
+.home-icon{
     margin-left: 15px;
     margin-top: 10px;
 }
 
-.right-icon{
+.hamburger-icon{
     margin-right: 30px;
     margin-top: 10px;
     cursor: pointer;
@@ -175,6 +179,13 @@ body{
     border-bottom: 1px solid gray;
     font-style: italic;
     font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-me p{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .projects{

@@ -1,12 +1,12 @@
-$('.right-icon').on('click', function(){
+$('.hamburger-icon').on('click', function(){
     $('ul').css('display', 'flex')
-    $('.right-icon').css('display', 'none')
+    $('.hamburger-icon').css('display', 'none')
     $('.cross-icon').css('display', 'flex')   
 })
 
 $('.cross-icon').on('click', function(){
     $('ul').css('display', 'none')
-    $('.right-icon').css('display', 'flex')
+    $('.hamburger-icon').css('display', 'flex')
     $('.cross-icon').css('display', 'none')   
 })
 

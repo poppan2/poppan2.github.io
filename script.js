@@ -1,14 +1,34 @@
-console.log("JS works")
-$('.toggle-button').on('click', function(){
-    $('ul').toggle(200, function(){
-        $('.toggle-button').toggle()
-    })
+$('.right-icon').on('click', function(){
+    $('ul').css('display', 'flex')
+    $('.right-icon').css('display', 'none')
+    $('.cross-icon').css('display', 'flex')   
 })
 
+$('.cross-icon').on('click', function(){
+    $('ul').css('display', 'none')
+    $('.right-icon').css('display', 'flex')
+    $('.cross-icon').css('display', 'none')   
+})
+
+$('.animation').ripples({
+    resolution: 512,
+    dropRadius: 20, 
+    perturbance: 0.04,
+});
+
+setInterval(function() {
+    var $el = $('.animation');
+    var x = Math.random() * $el.outerWidth();
+    var y = Math.random() * $el.outerHeight();
+    var dropRadius = 20;
+    var strength = 0.04 + Math.random() * 0.04;
+
+    $el.ripples('drop', x, y, dropRadius, strength);
+}, 400);
 
 // Changing html when widow size changes
-$(document).ready(function(){
-    $(window).on('resize', function(){
+    $(window).on('resize', function(event){
+        event.preventDefault()
         let win = $(this);
         if(win.width() >= 992){
             $('.skill-icon').removeClass('fa-5x')
@@ -17,22 +37,22 @@ $(document).ready(function(){
                 function(){
                     $(this).animate({
                         marginTop: '-=5%',
-                         width: '170px',
-                        height: '170px',
+                        marginRight: '-=5%',
+                        width: '270px',
+                        height: '150px',
                     }, 200)
                 }, 
                 
                 function(){
                     $(this).animate({
                         marginTop: '0%',
-                        width: '150px',
-                        height: '150px',
-                    },200)
+                        marginRight: '0%',
+                        width: '250px',
+                        height: '125px',
+                    }, 100)
                 }, 
             )
         }
     })
-
-})
 
 

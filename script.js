@@ -26,33 +26,5 @@ setInterval(function() {
     $el.ripples('drop', x, y, dropRadius, strength);
 }, 400);
 
-// Changing html when widow size changes
-    $(window).on('resize', function(event){
-        event.preventDefault()
-        let win = $(this);
-        if(win.width() >= 992){
-            $('.skill-icon').removeClass('fa-5x')
-            $('.skill-icon').addClass('fa-9x')
-            $('.project-photo').hover(
-                function(){
-                    $(this).animate({
-                        marginTop: '-=5%',
-                        marginRight: '-=5%',
-                        width: '270px',
-                        height: '150px',
-                    }, 200)
-                }, 
-                
-                function(){
-                    $(this).animate({
-                        marginTop: '0%',
-                        marginRight: '0%',
-                        width: '250px',
-                        height: '125px',
-                    }, 100)
-                }, 
-            )
-        }
-    })
 
 

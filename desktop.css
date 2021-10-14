@@ -76,12 +76,13 @@
     }
 
     .skills p{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
     }
+
     #jquery-icon{
-        width: 126px;
-        height: 144px;
+        width: 70px;
+        height: 80px;
     }
 
     #about-me{
@@ -147,6 +148,26 @@
 
     .project-photo:hover{
         box-shadow: 12px 12px 2px 1px rgba(41, 47, 57, 0.2);
+        animation-duration: 1.5s;
+        animation-name: popping;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes popping {
+        from {
+            margin-bottom: 0%;
+            margin-left: 0%;
+            width: 250px;
+            height: 125px;
+        }
+        
+        to{
+            margin-bottom: 10%;
+            margin-left: 10%;
+            width: 300px;
+            height: 175px;
+        }
     }
 
     .project-photo{

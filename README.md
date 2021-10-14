@@ -54,7 +54,8 @@ The Following are the Mobile and Desktop wireframes generated using the "[Figma]
 | Total | H | 3hrs| hrs |
 
 ## Additional Libraries
- Nothing ATM
+Water Ripple Effect (CDN below)
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js" integrity="sha512-zuZ5wVszlsRbRF/vwXD0QS/tHzBYHFzCD/BT0lI3yrWhNZFWDkkF3KPEY//WTanqxwPdZkskQ+xZo0rnfHBc5A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 ## Code Snippet
 

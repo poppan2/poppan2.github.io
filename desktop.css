@@ -28,7 +28,8 @@
     }
 
     .home-icon{
-        line-height: 2px;
+        line-height: 10px;
+        margin-bottom: 25px;
     }
 
     .main-content .animation{
@@ -57,9 +58,6 @@
     }
 
     .skill-set{
-        display: flex;
-        justify-content: center;
-        position: relative;
         top: -50px;
     }
 
@@ -72,12 +70,7 @@
     }
 
     .skills{
-        justify-content: space-evenly;
-    }
-
-    .skills p{
-        font-size: 20px;
-        font-weight: 600;
+        top: -30px;
     }
 
     #jquery-icon{
@@ -85,27 +78,13 @@
         height: 80px;
     }
 
-    #about-me{
-        border: none;
-        font-size: 40px;
-    }
-    
-    .aboutMe{
-        font-size: 35px;
-        display: flex;
-        justify-content: center;
+    .skill-icon, #jquery-icon{
+        transform: scale(1.8);
     }
 
-    .three-lines{
-        background-color: white;
-        height: 2px;
-        width: 400px;
-        position: relative;
-        top: 35px;
-    }
-
-    .aboutMe div:nth-of-type(1){
-        margin-right: 10px;
+    .skills p{
+        font-size: 25px;
+        margin-top: 30px
     }
 
     .about-me{
@@ -113,37 +92,30 @@
         margin: 50px 0;
     }
 
+    #about-me{
+        font-size: 40px;
+    }
+
+    .three-lines{
+        width: 400px;
+        top: 35px;
+    }
+
+    .aboutMe div:nth-of-type(1){
+        margin-right: 10px;
+    }
+
     .about-me p{
         font-size: 30px;
-        padding: 0 120px;
         line-height: 40px;
     }
 
     .project{
         font-size: 35px;
-        display: flex;
-        justify-content: center;
     }
 
     .four-lines{
-        background-color: #292F39;
-        height: 2px;
         width: 500px;
-        position: relative;
-        top: 35px;
-    }
-
-    .project-text{
-        border: none;
-        font-size: 40px;
-        color: #292F39;
-    }
-
-    .project-row-one, .project-row-two{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
     }
 
     .project-photo:hover{
@@ -153,7 +125,7 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
-    
+
     @keyframes popping {
         from {
             margin-bottom: 0%;
@@ -173,12 +145,16 @@
     .project-photo{
         width: 250px;
         height: 125px;
-        border-radius: 10px;;
     }
 
     .projects p{
         font-size: 25px;
     }
+
+    #footer{
+        margin-bottom: 0;
+    }
+
     .contact-text{
         font-size: 30px;
     }

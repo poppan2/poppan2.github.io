@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description/Create README file/ Wireframes / Priority Matrix / Timeline  | Complete
 |Day 2| MVP & Bug Fixes | Complete
 |Day 3| MVP & Bug Fixes  | Complete
-|Day 4| Post MVP & Bug Fixes| Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| Post MVP & Bug Fixes| Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 

@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description/Create README file/ Wireframes / Priority Matrix / Timeline  | Complete
 |Day 2| MVP & Bug Fixes | Complete
 |Day 3| MVP & Bug Fixes  | Complete
-|Day 4| Post MVP & Bug Fixes| Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| Post MVP & Bug Fixes| Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -38,34 +38,56 @@ The Following are the Mobile and Desktop wireframes generated using the "[Figma]
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | M | 0.5hr | 0.5hr |
-| HTML/CSS Page Layout | H | 3hr | 2hr |
+| HTML/CSS Page Layout | H | 3hr | 3hr |
 | Regular Nav | H | 1hr | 1.5hr |  
 | Nav Bar Fixes | H | 2hr | 3hr |
-| Adding Form | M | 1.5hr|  hr | 
 | Other sections and flex| M | 3hr | 4hr|
-| Animation | H | 3hrs|  2hr | 
+| Animation | H | 3hrs|  3hr | 
 | Responsive | H | 3hr | 3hr | 
 | Social Media Icons/Images | M | 1hr | 1 hr |
-| Total | H | 16hrs| hrs |
+| Total | H | 16hrs| 19hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Add Animation/Video in Background | L | 3hr | hr |
-| Total | H | 3hrs| hrs |
+| Add Animation/Video in Background | L | 3hr | 1hr |
+| Total | H | 3hrs| 1hrs |
 
 ## Additional Libraries
 Water Ripple Effect (CDN below)
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js" integrity="sha512-zuZ5wVszlsRbRF/vwXD0QS/tHzBYHFzCD/BT0lI3yrWhNZFWDkkF3KPEY//WTanqxwPdZkskQ+xZo0rnfHBc5A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+Font Awesome CSS library
+https://use.fontawesome.com/releases/v5.7.0/css/all.css
 
 ## Code Snippet
 
 Nothing ATM
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+.project-photo:hover{
+        box-shadow: 12px 12px 2px 1px rgba(41, 47, 57, 0.2);
+        animation-duration: 1.5s;
+        animation-name: popping;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes popping {
+        from {
+            margin-bottom: 0%;
+            margin-left: 0%;
+            width: 250px;
+            height: 125px;
+        }
+        
+        to{
+            margin-bottom: 10%;
+            margin-left: 10%;
+            width: 300px;
+            height: 175px;
+        }
+    }
 ```
 
 ## Issues and Resolutions

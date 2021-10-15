@@ -19,13 +19,13 @@
     }
 
     .profile img{
-        top: -300px;
+        top: -150px;
         border-radius: 50%;
     }
 
     .main-content .intro{
         font-size: 30px;
-        top: -150px;
+        top: -100px;
         text-transform: uppercase;
         margin-bottom: 0;
     }
@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         position: relative;
-        top: -80px;
+        top: -50px;
     }
 
     .two-lines{
@@ -142,9 +142,9 @@
         font-weight: 600;
     }
 
-    #footer{
+    /* #footer{
         margin-bottom: 120px;
-    }
+    } */
 
     .contact-text{
         font-size: 20px;

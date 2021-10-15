@@ -260,9 +260,6 @@ body{
 .fa-twitter{
     color: #55ADED;
 }
-.fa-envelope, .fa-github{
+.fa-envelope, .fa-github, .fa-linkedin{
     color: white;
-}
-.fa-instagram{
-    color: #B600C8;
 }

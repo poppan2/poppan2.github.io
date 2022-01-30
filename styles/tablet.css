@@ -1,0 +1,157 @@
+@media screen and (min-width: 768px){
+
+    .home-icon{
+        transform: scale(1.5);
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .hamburger-icon{
+        transform: scale(1.5);
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .cross-icon{
+        transform: scale(1.5);
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .profile img{
+        top: -150px;
+        border-radius: 50%;
+    }
+
+    .main-content .intro{
+        font-size: 30px;
+        top: -100px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    #skill{
+        font-size: 20px;
+        border: none;
+    }
+
+    .skill-set{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -50px;
+    }
+
+    .two-lines{
+        background-color: #292F39;
+        height: 2px;
+        width: 200px;
+        position: relative;
+        top: 15px;
+    }
+
+    .skills{
+        justify-content: space-evenly;
+        position: relative;
+        top: -80px;
+    }
+
+    .skill-icon, #jquery-icon{
+        transform: scale(1.2);
+    }
+
+    .skills p{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        font-weight: 600;
+    }
+
+    .skill-icon, #jquery-icon{
+        transform: scale(1.2);
+    }
+
+    .about-me{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .aboutMe{
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-me{
+        font-size: 30px;
+        border: none;
+    }
+
+    .three-lines{
+        background-color: white;
+        height: 2px;
+        width: 250px;
+        position: relative;
+        top: 25px;
+    }
+
+    .aboutMe div:nth-of-type(1){
+        margin-right: 7px;
+    }
+
+    .about-me p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .project{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .four-lines{
+        background-color: #292F39;
+        height: 2px;
+        width: 250px;
+        position: relative;
+        top: 35px;
+    }
+
+    .project-text{
+        border: none;
+        font-size: 40px;
+        color: #292F39;
+    }
+
+
+    .project-photo{
+        width: 200px;
+        height: 90px;
+    }
+
+    .project-row-one, .project-row-two{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .projects p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* #footer{
+        margin-bottom: 120px;
+    } */
+
+    .contact-text{
+        font-size: 20px;
+    }
+
+    .social-icons{
+        margin: 20px 0;
+    }
+
+}

@@ -41,59 +41,25 @@
     }
 
     .profile img{
-        top: -200px;
-        border-radius: 50%;
-        width: 20%;
-    }
-
-    .main-content .intro{
-        font-size: 40px;
-        top: -150px;
-        text-transform: uppercase;
-    }
-
-    #skill{
-        font-size: 30px;
-        border: none;
-    }
-
-    .skill-set{
-        top: -50px;
+        width: 10%;
     }
 
     .two-lines{
-        background-color: #292F39;
         height: 2px;
         width: 420px;
-        position: relative;
-        top: 25px;
     }
 
-    .skills{
-        top: -30px;
-    }
-
-    #jquery-icon{
-        width: 70px;
-        height: 80px;
-    }
-
-    .skill-icon, #jquery-icon{
+    .skill-icon, .img-icon{
         transform: scale(1.8);
     }
 
     .skills p{
-        font-size: 25px;
         margin-top: 30px
     }
 
     .about-me{
         padding: 50px 0;
         margin: 50px 0;
-    }
-
-    #about-me{
-        font-size: 40px;
     }
 
     .three-lines{
@@ -106,13 +72,9 @@
     }
 
     .about-me p{
-        font-size: 30px;
         line-height: 40px;
     }
 
-    .project{
-        font-size: 35px;
-    }
 
     .four-lines{
         width: 500px;
@@ -195,7 +157,7 @@
     }
 
     .projects p{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #footer{

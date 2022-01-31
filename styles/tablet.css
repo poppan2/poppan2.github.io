@@ -19,15 +19,15 @@
     }
 
     .profile img{
-        top: -150px;
+        top: 0;
         border-radius: 50%;
     }
 
     .main-content .intro{
         font-size: 30px;
-        top: -100px;
-        text-transform: uppercase;
-        margin-bottom: 0;
+        top: 0;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     #skill{
@@ -39,24 +39,22 @@
         display: flex;
         justify-content: center;
         position: relative;
-        top: -50px;
     }
 
     .two-lines{
-        background-color: #292F39;
+        background-color: white;
         height: 2px;
         width: 200px;
         position: relative;
-        top: 15px;
+        top: 35px;
     }
 
     .skills{
         justify-content: space-evenly;
         position: relative;
-        top: -80px;
     }
 
-    .skill-icon, #jquery-icon{
+    .skill-icon, .img-icon{
         transform: scale(1.2);
     }
 
@@ -68,7 +66,7 @@
         font-weight: 600;
     }
 
-    .skill-icon, #jquery-icon{
+    .skill-icon, .img-icon{
         transform: scale(1.2);
     }
 
@@ -111,7 +109,7 @@
     }
 
     .four-lines{
-        background-color: #292F39;
+        background-color: white;
         height: 2px;
         width: 250px;
         position: relative;
@@ -121,7 +119,7 @@
     .project-text{
         border: none;
         font-size: 40px;
-        color: #292F39;
+        color: white;
     }
 
 
@@ -138,13 +136,14 @@
     }
 
     .projects p{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 600;
     }
 
-    /* #footer{
-        margin-bottom: 120px;
-    } */
+    #footer{
+        margin-bottom: 250px;
+        position: relative;
+    }
 
     .contact-text{
         font-size: 20px;

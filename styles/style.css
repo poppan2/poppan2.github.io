@@ -37,7 +37,7 @@ body{
 .nav-bar{
     grid-column: 1/8;
     grid-row: 1/2;
-    background-color:rgba(41, 47, 57, 0.5);
+    background-color:black;
     padding-bottom: 20px;
     width: 100%;
     position: fixed;
@@ -79,6 +79,14 @@ body{
     cursor: pointer;
 }
 
+#scene-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
 .main-content{
     grid-column: 1/8;
     grid-row: 2/3;
@@ -86,44 +94,40 @@ body{
     width: 100%;
 }
 
-.main-content .animation{
-    background: url(/images/realistic-water-splash-dark-background_1355-88.jpg) no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    background-color: black;
-}
-
-.profile{
+.main-content .profile{
     text-align: center;
     margin: 0;
+    background-color: black;
+    width: 100%;
 }
 
 .profile img{
-    width: 30%;
+    width: 20%;
     position: relative;
-    top: -60px;
     border-radius: 10px;
     z-index: 1;
+    margin-top: 100px;;
 }
 
 .main-content .intro{
     grid-row: 2/3;
     text-align: center;
     margin: 0 auto;
-    width: 90%;
     position: relative;
-    top: -20px;
+    padding-bottom: 20px;
 }
 
 .intro h3{
     font-family: 'Wallpoet', sans-serif;
+    color: white;
+    padding-top: 10px;
+    margin: 0 30px;
 }
 
-.intro p{
+/* .intro p{
     font-family: 'charm', sans-serif;
     color:rgb(100, 99, 99)
-}
+} */
 
 #skill{
     text-align: center;
@@ -134,6 +138,8 @@ body{
     text-transform: uppercase;
     font-family: 'Press Start 2P', cursive;
     font-size: 15px;
+    margin-top: 20px;
+    color: white;
 }
 
 .skills{
@@ -146,6 +152,7 @@ body{
 .skills p{
     padding: 0;
     margin-top: 0;
+    color: white;
 }
 
 .fa-html5{
@@ -159,26 +166,35 @@ body{
 .fa-python{
     color: #3773A5;
 }
-
+.fa-react{
+    color: rgb(97, 218, 251)
+}
 .fa-css3-alt{
     color: #0172B6;
 }
 
-#jquery-icon{
-    width: 70px;
-    height: 80px;
+.img-icon{
+    width: 40px;
+    height: 40px;
 }
 
+.skills #mongoDB-icon{
+    margin-top: 6px;
+}
 .skills .fa-github{
-    color: #292F39;
+    /* color: #292F39; */
+    color: white;
 }
 
-.about-me{
+.main-content .about-me{
     text-align: center;
     background-color: #292F39;
-    color: white;
+    background-color:rgba(41, 47, 57, 0.8);
+    color: black;
     padding: 20px 0;
-    margin: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #about-me{
@@ -187,17 +203,21 @@ body{
     font-style: italic;
     font-size: 20px;
     padding-bottom: 10px;
+    color: white
 }
 
 .about-me p{
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
+    color: white;
 }
 
 .projects{
     text-align: center;
     margin: 50px auto;
+    position: relative;
+    color: white;
 }
 
 .project-text{
@@ -227,11 +247,53 @@ body{
     border-radius: 10px;
 }
 
+.img-container{
+    position: relative;
+}
+
+.project-info{
+    background-color: black;
+    width: 250px;
+    height: 120px;
+    display: none;
+}
+
+
+.project-info p{
+    padding: 0 10px;
+   padding-top: 20px;
+}
+
+.black-button{
+    background-color: black;
+    color: white;
+}
+
+.info-button, .back-button{
+    width: 70px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+}
+.info-button{
+    bottom: 0;
+    right: 0;
+}
+
+.back-button{
+    display:none;
+    bottom: -135px;
+    right: 0;
+}
+
+
 #footer{
     grid-column: 1/8;
     grid-row: 3/4;
     background-color: #292F39;
     width: 100%;
+    position: relative;
 
 }
 

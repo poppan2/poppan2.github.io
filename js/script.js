@@ -79,6 +79,19 @@ $('.pc-back-button').on('click', function(){
     $('.pc-back-button').css('display', 'none')
     $('.pc-info-button').css('display', 'flex')
 })
+$('.ai-info-button').on('click', function(){
+    $('.ai-photo').css('display', 'none')
+    $('.ai-info').css('display', 'block')
+    $('.ai-back-button').css('display', 'flex')
+    $('.ai-info-button').css('display', 'none')
+})
+
+$('.ai-back-button').on('click', function(){
+    $('.ai-photo').css('display', 'flex')
+    $('.ai-info').css('display', 'none')
+    $('.ai-back-button').css('display', 'none')
+    $('.ai-info-button').css('display', 'flex')
+})
 
 $('.animation').ripples({
     resolution: 512,

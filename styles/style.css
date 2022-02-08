@@ -261,7 +261,7 @@ body{
 
 .project-info p{
     padding: 0 10px;
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 .black-button{
@@ -287,6 +287,9 @@ body{
     right: 0;
 }
 
+.ml-info p{
+    font-size: 12px;
+}
 
 #footer{
     grid-column: 1/8;

@@ -24,18 +24,18 @@ $('.tdl-back-button').on('click', function(){
     $('.tdl-info-button').css('display', 'flex')
 })
 
-$('.fb-info-button').on('click', function(){
-    $('.fb-photo').css('display', 'none')
-    $('.fb-info').css('display', 'block')
-    $('.fb-back-button').css('display', 'flex')
-    $('.fb-info-button').css('display', 'none')
+$('.ml-info-button').on('click', function(){
+    $('.ml-photo').css('display', 'none')
+    $('.ml-info').css('display', 'block')
+    $('.ml-back-button').css('display', 'flex')
+    $('.ml-info-button').css('display', 'none')
 })
 
-$('.fb-back-button').on('click', function(){
-    $('.fb-photo').css('display', 'flex')
-    $('.fb-info').css('display', 'none')
-    $('.fb-back-button').css('display', 'none')
-    $('.fb-info-button').css('display', 'flex')
+$('.ml-back-button').on('click', function(){
+    $('.ml-photo').css('display', 'flex')
+    $('.ml-info').css('display', 'none')
+    $('.ml-back-button').css('display', 'none')
+    $('.ml-info-button').css('display', 'flex')
 })
 
 $('.ri-info-button').on('click', function(){
